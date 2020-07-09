@@ -19,7 +19,7 @@ function cadastrarUsuario() {
 }
 
 function redirecionar() {
-    window.open("https://pauloegidiocardoso.github.io/siteProjetoIntegradorGit/")
+    window.open("https://pauloegidiocardoso.github.io/siteProjetoIntegradorGit/index.html")
 }
 
 $(document).ready(function () {
