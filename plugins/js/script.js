@@ -19,7 +19,7 @@ function cadastrarUsuario() {
 }
 
 function redirecionar() {
-    window.open("file:///C:/Users/paulo/Desktop/SENAI/WebDesign/SiteProjetoIntegrador/index.html")
+    window.open("https://pauloegidiocardoso.github.io/siteProjetoIntegradorGit/")
 }
 
 $(document).ready(function () {
