@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plugins/bootstrap.min.css">
+    <script src="plugins/jquery-3.5.1.min.js"></script>
+    <script src="plugins/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estiloSiteProjetoIntegrador.css">
+    <title>Site Projeto Integrador - Grupo 4</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div>
+            <img src="img/logo.jpeg" alt="logo">
+            <h1>Estacione Fácil</h1>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-dark ml-5">
+            <a class="navbar-brand active"  data-toggle="collapse" data-target="#menuCascata" href="#" id="menu">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuCascata">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuCascata">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="equipe.html">Equipe</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="carousel slide" data-ride="carousel" id="fotosCarousel">
+            <ul class="carousel-indicators">
+                <li data-target="#fotosCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#fotosCarousel" data-slide-to="1"></li>
+                <li data-target="#fotosCarousel" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" alt="foto" class="fotoCarousel">
+                    <div class="carousel-caption" class="textCarousel">
+                        <p class="txtCarousel">
+                            Grande frota de veículos, estrutura precária, desorganizada e lenta
+                        </p>
+                        <p class="txtCarouselResp">Problema de Mobilidade Urbana?</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" alt="foto" class="fotoCarousel img-fluid">
+                    <div class="carousel-caption" class="textCarousel">
+                        <p class="txtCarousel">
+                            Organização do serviço de vagas de forma simples, prática e didática
+                        </p>
+                        <p class="txtCarouselResp">Proposta de solução simples e eficaz!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.jpg" alt="foto" class="fotoCarousel">
+                    <div class="carousel-caption" class="textCarousel">
+                        <p class="txtCarousel">
+                            Encontre sua vaga através do seu SmartPhone e estacione com facilidade.
+                        <p class="txtCarouselResp">Um trânsito organizado e com qualidade!</p>
+                        </p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#fotosCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#fotosCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="accordion" id="objetivoProjeto">
+            <div class="card">
+                <div class="card-header ml-0" id="objetivo">
+                    <h4 class="mb-0">
+                        <button class="btn btn-primary btn-block" type="button" data-toggle="collapse"
+                            data-target="#collapseObjetivo" aria-expanded="true"
+                            aria-controls="collapseObjetivo">Objetivo do Projeto:
+                        </button>
+                    </h4>
+                </div>
+                <div id="collapseObjetivo" class="collapse" aria-labelledby="objetivo" data-parent="#objetivoProjeto">
+                    <div class="card-body">
+                        <p class="txtColapse">
+                            O objetivo deste projeto é o gerenciamento de vagas públicas da cidade de Florianópolis
+                            aonde o
+                            acúmulo de veículos aguardando disponibilidade é muito elevado, consequêntimente causando
+                            congestionamentos no trânsito da capital. Desta forma podemos ressaltar o grave problema de
+                            mobilidade urbana na fiscalização e rotatividade de veículos em vagas públicas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion" id="solucaoProjeto">
+            <div class="card">
+                <div class="card-header" id="solucao">
+                    <h4 class="mb-0">
+                        <button class="btn btn-primary btn-block" type="button" data-toggle="collapse"
+                            data-target="#collapseSolucao" aria-expanded="true" aria-controls="collapseSolucao">Proposta
+                            de Solução:
+                        </button>
+                    </h4>
+                </div>
+                <div id="collapseSolucao" class="collapse" aria-labelledby="objetivo" data-parent="#solucaoProjeto">
+                    <div class="card-body">
+                        <p class="txtColapse">
+                            Para o problema explanado anteriormente apresentamos a solução através do aplicativo de
+                            gerenciamento de vagas públicas numeradas e controladas por parquímetros da prefeitura de
+                            Florianópolis. Com esta solução será possível elevar a fiscalização dos órgãos responsáveis
+                            por estes espaços proporcionando assim uma melhor rotatividade de veículos.
+                            Como diferencial podemos destacar a facilitação na busca de vagas disponíveis pelos usuários
+                            do aplicativo através do uso de GPS reduzindo o tempo de espera e circulação de veículos, e
+                            ainda a aplicação de descontos com base em caronas para outros motoristas cadastrados, desta
+                            forma incentivando a redução de veículos nas rodovias, assim melhorando uma parcela da
+                            mobilidade urbana.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion" id="Projeto">
+            <div class="card">
+                <div class="card-header" id="funcionamento">
+                    <h4 class="mb-0">
+                        <button class="btn btn-primary btn-block" type="button" data-toggle="collapse"
+                            data-target="#collapseFuncionamento" aria-expanded="true"
+                            aria-controls="collapseFuncionamento">Conheça o Projeto:
+                        </button>
+                    </h4>
+                </div>
+                <div id="collapseFuncionamento" class="collapse" aria-labelledby="funcionamento" data-parent="#Projeto">
+                    <div class="card-body">
+                        <h3 class="txtColapse">Para o Motorista:</h3>
+                        <p class="txtColapse">
+                            Com o aplicativo instalado, cadastro realizado e login ativo. O usuário ao abrir o
+                            aplicativo
+                            terá na tela inicial terá as opções de “Saldo”, “Ativar Vaga”, “Buscar Vagas”, “Alterar
+                            Cadastro” e “Notificações”.
+                            Ao selecionar a opção “Ativar Vaga” será solicitado ao motorista a leitura do QRcode
+                            exclusivo
+                            da vaga a ser utilizada. Ao realizar a leitura será solicitado ao usuário se o mesmo se
+                            encontra
+                            sozinho ou com caronas usuários do aplicativo. Se o motorista informar que está sozinho,
+                            automaticamente será feita a ativação da vaga e cobrança sobre seu saldo disponível. Na
+                            hipótese
+                            de o usuário estar acompanhado e ter fornecido carona para outros usuários do aplicativo,
+                            será
+                            solicitado aos demais a leitura do mesmo QRcode exclusivo da vaga assim ocorrendo
+                            internamente o
+                            cruzamento dos dados o aplicando o desconto conforme a política.
+                            Ao ativar uma vaga o campo “Ativar Vaga” passará a se chamar “Desativar Vaga”. Conforme a
+                            politica do aplicativo, cada usuário poderá ativar somente uma vaga de estacionamento, assim
+                            não
+                            terá nenhum inconveniente na alteração do campo “Ativar Vaga”. O usuário ao se retirar de
+                            uma
+                            vaga deverá realizar a desativação da mesma através do campo “Desativar Vaga”.
+                            Ao selecionar a opção “Buscar Vagas”, será aberto um mapa com alternativas dentro de um raio
+                            de
+                            10km e um campo solicitando o destino do usuário. Ao informar o destino o mapa será
+                            atualizado
+                            com as vagas disponíveis dentro do destino informado. O mapa de vagas será atualizado
+                            conforme a
+                            disponibilidade de vagas no raio informado.
+                            Ao selecionado o campo “Alterar Cadastro” o usuário terá as opções de alterar placas ou
+                            adicionar veículo, também poderá alterar ou adicionar formas de pagamento bem como suas
+                            informações pessoais de endereço, e-mail e telefone.
+                            No campo “Notificações” poderá visualizar todas as suas notificações como multas impostas
+                            pelo
+                            órgão fiscalizador.
+                        </p>
+                        <h3 class="txtColapse">Para o Fiscal:</h3>
+                        <p class="txtColapse">
+                            Com seu login realizado na plataforma escolhida, o usuário poderá visualizar através do mapa
+                            todas as vagas ocupadas e disponíveis.
+                            No campo notificações o fiscal receberá as informações de vagas que irão expirar num prazo
+                            de 15 minutos e ainda as vagas expiradas para o controle e fiscalização.
+                            No caso de uma vaga expirada o fiscal receberá em seu dashboard a informação da vaga
+                            irregular com sua localização, placa, modelo do veículo e nome do usuário do aplicativo
+                            assim podendo se deslocar para realizar a fiscalização.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <h5>Análise e Desenvolvimento de Sistemas (SENAI-SC)</h5>
+        <p>Serviço Nacional de Aprendizagem Industrial - Rod. Admar Gonzaga, 2765</p>
+        <p>Florianópolis/SC - 88034-001 - Fone: 48 3231 4100.</p>
+    </footer>
+</body>
+
+</html>
