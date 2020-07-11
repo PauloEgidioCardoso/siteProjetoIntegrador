@@ -76,7 +76,6 @@ footer p{
 
 footer h5{
     padding-top: 10px;
-    
 }
 
 #menu{
@@ -163,6 +162,10 @@ footer h5{
 
     #tabelaEquipeResponsivo{
         display: initial;
+    }
+
+    main h5{
+        margin-bottom: -30px;
     }
 
 }  
