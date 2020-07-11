@@ -91,6 +91,10 @@ footer h5{
     text-align: center;
 }
 
+#tabelaEquipeResponsivo{
+    display: none;
+}
+
 @media only screen and (max-width: 780px){
     body{
         background-color: rgb(33, 150, 243);
@@ -151,6 +155,15 @@ footer h5{
 
     table{
         background-color: white;
+    }
+
+    #tabelaEquipe{
+        display: none;
+    }
+
+    #tabelaEquipeResponsivo{
+        display: initial;
+        margin-top: 0px;
     }
 
 }  
